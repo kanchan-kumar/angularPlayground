@@ -1,0 +1,9 @@
+<div class="docs-component-sidenav-content">
+  <div class="docs-component-sidenav-inner-content">
+    <div class="docs-component-sidenav-body-content">
+      <!-- If on large screen, menu resides to left of content -->
+      <app-component-nav *ngIf="!(isScreenSmall | async)" [params]="params">
+      </app-component-nav>
+    </div>
+  </div>
+</div>
